@@ -280,13 +280,13 @@
     </section>
     <!-- Footer -->
     <footer class="bg-black text-gray-300">
-      <div class="flex justify-between items-center px-20 py-10 gap-32">
+      <div class="flex justify-start lg:justify-between items-center flex-col lg:flex-row px-4 lg:px-20 py-10 lg:gap-32">
         <div class="space-y-6">
           <ul class="flex gap-5">
             <li>Download Now</li>
             <li>Licence</li>
           </ul>
-          <ul class="flex gap-5">
+          <ul class="flex flex-wrap gap-5">
             <li>About</li>
             <li>Features</li>
             <li>Pricing</li>
@@ -294,14 +294,15 @@
             <li>Help</li>
             <li>Privecy Policy</li>
           </ul>
-          <p class="text-sm text-gray-400">© 2020 bike. All rights reserved</p>
+          <p class="text-sm text-gray-400 hidden lg:block">© 2020 bike. All rights reserved</p>
         </div>
-        <div class="flex-1 space-y-3" style="flex-grow: 0.4;">
+        <div class="lg:flex-1 space-y-3 self-start mt-10 lg:mt-0" style="flex-grow: 0.4;">
           <p>Get The App</p>
           <img src="./images/others/ios.png" alt="">
           <img src="./images/others/android.png" alt="">
         </div>
       </div>
+                <p class="text-sm text-gray-400 lg:hidden text-center py-10">© 2020 bike. All rights reserved</p>
     </footer>
   </main>
 </body>
